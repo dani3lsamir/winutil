@@ -79,5 +79,12 @@
         "Type": "Note",
         "Order": "0",
         "Description": "Information about the #FOSS label on application entries"
+    },
+    "WPFdani3lsamirApps": {
+        "Content": "Select dani3lsamir's Apps",
+        "Category": "__Selection",
+        "Type": "Button",
+        "Order": "6",
+        "Description": "Select the apps dani3lsamir installs on every PC"
     }
 }

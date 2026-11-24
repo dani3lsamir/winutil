@@ -167,6 +167,8 @@ function Invoke-WPFButtonAction {
         "WPFAdvanced" {Invoke-WPFPresets "Advanced" -checkboxfilterpattern "WPFTweak*"}
         "WPFClearTweaksSelection" {Invoke-WPFPresets -imported $true -checkboxfilterpattern "WPFTweak*"}
         "WPFClearInstallSelection" {Invoke-WPFPresets -imported $true -checkboxfilterpattern "WPFInstall*"}
+        "WPFdani3lsamir" {Invoke-WPFPresets "dani3lsamir" -checkboxfilterpattern "WPFTweak*"}
+        "WPFdani3lsamirApps" {Invoke-WPFPresets "dani3lsamirApps" -checkboxfilterpattern "WPFInstall*"}
         "WPFtweaksbutton" {Invoke-WPFtweaksbutton}
         "WPFOOSUbutton" {Invoke-WPFOOSU}
         "WPFAddUltPerf" {Invoke-WPFUltimatePerformance -Enable}
