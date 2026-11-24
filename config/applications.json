@@ -2146,6 +2146,159 @@
         "content": "Cloudflare WARP",
         "link": "https://one.one.one.one",
         "foss": false
+    },
+    "granola": {
+        "category": "Document",
+        "choco": "na",
+        "content": "Granola",
+        "description": "Granola is an AI notepad for meetings that turns your notes and the meeting audio into clean, shareable summaries.",
+        "link": "https://www.granola.ai/",
+        "winget": "Granola.Granola",
+        "foss": false
+    },
+    "handy": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Handy",
+        "description": "Handy is a free, open-source speech-to-text app that transcribes your voice locally and types the text into any app.",
+        "link": "https://github.com/cjpais/Handy",
+        "winget": "cjpais.Handy",
+        "foss": true
+    },
+    "pdfcraft": {
+        "category": "Document",
+        "choco": "na",
+        "content": "PdfCraft",
+        "description": "PdfCraft is a PDF workbench to read, organize, combine, split and secure PDF files.",
+        "link": "https://getartcraft.com/",
+        "winget": "ArtCraft.PdfCraft",
+        "foss": false
+    },
+    "mp3tag": {
+        "category": "Multimedia Tools",
+        "choco": "mp3tag",
+        "content": "Mp3tag",
+        "description": "Mp3tag is a metadata editor for audio files that supports batch tag editing, cover art and renaming files from tags.",
+        "link": "https://www.mp3tag.de/en/",
+        "winget": "FlorianHeidenreich.Mp3tag",
+        "foss": false
+    },
+    "androidstudio": {
+        "category": "Development",
+        "choco": "androidstudio",
+        "content": "Android Studio",
+        "description": "Android Studio is the official IDE for Android app development, with an emulator, code editor and build tools.",
+        "link": "https://developer.android.com/studio",
+        "winget": "Google.AndroidStudio",
+        "foss": false
+    },
+    "platformtools": {
+        "category": "Development",
+        "choco": "adb",
+        "content": "Android Platform Tools",
+        "description": "Android SDK Platform Tools include adb and fastboot for working with Android devices from the command line.",
+        "link": "https://developer.android.com/tools/releases/platform-tools",
+        "winget": "Google.PlatformTools",
+        "foss": true
+    },
+    "openjdk17": {
+        "category": "Development",
+        "choco": "microsoft-openjdk17",
+        "content": "Microsoft OpenJDK 17",
+        "description": "The Microsoft Build of OpenJDK 17 is a free, long-term support distribution of the Java Development Kit.",
+        "link": "https://learn.microsoft.com/java/openjdk/",
+        "winget": "Microsoft.OpenJDK.17",
+        "foss": true
+    },
+    "epsonscan2": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson Scan 2",
+        "description": "Epson Scan 2 is Epson's scanner driver and scanning software.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.EpsonScan2",
+        "foss": false
+    },
+    "epsonscansmart": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson ScanSmart",
+        "description": "Epson ScanSmart scans, previews and saves documents and photos from Epson scanners.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.ScanSmart",
+        "foss": false
+    },
+    "epsoneventmanager": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson Event Manager",
+        "description": "Epson Event Manager assigns the buttons on Epson scanners to scanning actions on the PC.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.EventManager",
+        "foss": false
+    },
+    "epsonnetprint": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson Net Print",
+        "description": "Epson Net Print sets up printing to Epson printers over the network.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.EpsonNetPrint",
+        "foss": false
+    },
+    "epsonscanocr": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson Scan OCR Component",
+        "description": "OCR component for Epson Scan that makes scanned documents searchable and editable.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.Scan.OCRComponent",
+        "foss": false
+    },
+    "epsonscanpdf": {
+        "category": "Utilities",
+        "choco": "na",
+        "content": "Epson Scan PDF Extensions",
+        "description": "PDF extensions for Epson Scan that add PDF saving options.",
+        "link": "https://epson.com/support",
+        "winget": "EPSON.Scan.PDFExtensions",
+        "foss": false
+    },
+    "dotnetruntime8": {
+        "category": "Microsoft Tools",
+        "choco": "na",
+        "content": ".NET Runtime 8",
+        "description": ".NET Runtime 8 runs console and server applications built with .NET 8.",
+        "link": "https://dotnet.microsoft.com/download/dotnet/8.0",
+        "winget": "Microsoft.DotNet.Runtime.8",
+        "foss": true
+    },
+    "aspnetcore8": {
+        "category": "Microsoft Tools",
+        "choco": "na",
+        "content": "ASP.NET Core Runtime 8",
+        "description": "ASP.NET Core Runtime 8 runs web applications built with ASP.NET Core 8.",
+        "link": "https://dotnet.microsoft.com/download/dotnet/8.0",
+        "winget": "Microsoft.DotNet.AspNetCore.8",
+        "foss": true
+    },
+    "vc2010_64": {
+        "category": "Microsoft Tools",
+        "choco": "vcredist2010",
+        "content": "Visual C++ 2010 64-bit",
+        "description": "Visual C++ 2010 64-bit redistributable package installs runtime components required by older 64-bit applications.",
+        "link": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+        "winget": "Microsoft.VCRedist.2010.x64",
+        "foss": false
+    },
+    "vc2010_32": {
+        "category": "Microsoft Tools",
+        "choco": "vcredist2010",
+        "content": "Visual C++ 2010 32-bit",
+        "description": "Visual C++ 2010 32-bit redistributable package installs runtime components required by older 32-bit applications.",
+        "link": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+        "winget": "Microsoft.VCRedist.2010.x86",
+        "foss": false
     }
 }
 
