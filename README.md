@@ -1,3 +1,11 @@
+> **dani3lsamir's WinUtil** - my build of WinUtil with my apps and settings.
+> Run it in PowerShell:
+> ```ps1
+> irm https://github.com/dani3lsamir/winutil/releases/latest/download/winutil.ps1 | iex
+> ```
+> Install tab: **Select dani3lsamir's Apps**. Tweaks tab: **dani3lsamir**.
+> Fork of [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil). by: [dani3lsamir](https://github.com/dani3lsamir)
+
 # Chris Titus Tech's Windows Utility
 
 [![Version](https://img.shields.io/github/v/release/ChrisTitusTech/winutil?color=%230567ff&label=Latest%20Release&style=for-the-badge)](https://github.com/ChrisTitusTech/winutil/releases/latest)

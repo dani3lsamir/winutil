@@ -1,0 +1,45 @@
+# Compiles winutil.ps1 and publishes it as the latest release, so it runs with:
+#   irm https://github.com/dani3lsamir/winutil/releases/latest/download/winutil.ps1 | iex
+name: Build my WinUtil
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "config/**"
+      - "functions/**"
+      - "scripts/**"
+      - "xaml/**"
+      - "tools/autounattend.xml"
+      - "Compile.ps1"
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+
+      - name: Compile project
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy Bypass -Scope Process -Force; ./Compile.ps1
+
+      - name: Set version
+        shell: pwsh
+        run: |
+          $version = "$(Get-Date -Format 'yy.MM.dd')-$env:GITHUB_RUN_NUMBER"
+          echo "VERSION=$version" >> $env:GITHUB_ENV
+
+      - name: Create release
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: WinUtil ${{ env.VERSION }}
+          body: My WinUtil build with my apps and settings. Fork of Chris Titus Tech's winutil.
+          files: ./winutil.ps1
+          make_latest: true
