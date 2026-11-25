@@ -4,6 +4,11 @@
 > irm https://github.com/dani3lsamir/winutil/releases/latest/download/winutil.ps1 | iex
 > ```
 > Install tab: **Select dani3lsamir's Apps**. Tweaks tab: **dani3lsamir**.
+>
+> **Win Setup** - my lighter app manager (just my apps and a few settings):
+> ```ps1
+> irm https://raw.githubusercontent.com/dani3lsamir/winutil/main/win-setup.ps1 | iex
+> ```
 > Fork of [ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil). by: [dani3lsamir](https://github.com/dani3lsamir)
 
 # Chris Titus Tech's Windows Utility
